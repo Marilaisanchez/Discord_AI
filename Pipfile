@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+keras = "==2.15"
+tensorflow = "==2.15"
+discord = "*"
+python-dotenv = "*"
+torch = "*"
+opencv-python = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.12"
